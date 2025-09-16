@@ -1,0 +1,67 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { Container, Row } from 'reactstrap'
+import LoginImg from '../assest/images/hero4.jpeg'
+
+import '../styles/form.css'
+const Register = () => {
+
+     //js for small product
+var LoginForm = document.getElementById('LoginForm');
+var RegForm = document.getElementById('RegForm');
+var Indicator = document.getElementById('Indicator');
+
+     const RegisterPage = () =>{
+         RegForm.style.transform = 'translateX(0px)';
+         LoginForm.style.transform = 'translateX(0px)';
+         Indicator.style.transform = 'translateX(100px)';
+     }
+     const LoginPage = () =>{
+        RegForm.style.transform = 'translateX(300px)';
+        LoginForm.style.transform = 'translateX(300px)';
+        Indicator.style.transform = 'translateX(0px)';
+    }
+
+    return (
+        <section>
+           <Container>
+               <Row>
+               <div className="account-page">
+             <div className="container">
+                 <div className="row">
+                     <div className="col-2 account">
+                        <img src={LoginImg} className="bg-image"
+                         alt='imag'
+                        />
+                     </div>
+                     <div className="col-2">
+                         <div className="form-container">
+                             <div className="form-btn">
+                                 <span onClick={LoginPage} >Login</span>
+                                 <span onClick={RegisterPage}>Register</span>
+                                 <hr id="Indicator" />
+                             </div>
+                            <form id="LoginForm">
+                                <input type="text" placeholder="Email" />
+                                <input type="password" placeholder="Password" />
+                                <button type="submit" className="btnn">Login</button>
+                                <Link to='#' >Forgot password</Link>
+                            </form>
+                                <form id="RegForm">
+                                    <input type="email" placeholder="E-mail" />
+                                    <input type="password" placeholder="Password" />
+                                      <input type="password" placeholder="Confirm Password" />
+                                    <button type="submit" className="btnn">Register </button>
+                                </form>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+               </Row>
+           </Container>
+        </section>
+    )
+}
+
+export default Register

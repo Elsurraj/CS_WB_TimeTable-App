@@ -1,0 +1,60 @@
+.generate-container{
+    height: 430px;
+}
+.options-select {
+    margin-top: 5px;
+}
+.options-select select{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+
+.select__width select{
+    width: 100%;
+}
+.select-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+}
+select{
+    width: auto;
+    height: 40px;
+    margin: 5px 0;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+}
+select:focus{
+    outline: none;
+    border-color: #17bf9c;
+}
+.select-options-col{
+    padding: 0 8px;
+    flex-basis: 50%;
+}
+
+.admin-list{
+    margin-top: 50px !important;
+    margin-bottom: 200px !important;
+    padding: 0 9px;
+}
+.admin-list{
+    transition: transform 0.5s;
+}
+.admin-list:hover{
+    transform: translateY(-10px);
+}
+.admin-col h3{
+    padding: 16px 3px !important;
+}
+.admin-col h3 a{
+    color: #fff;
+}
+.admin-col h3 a:hover{
+    color: #59f7a8;
+}

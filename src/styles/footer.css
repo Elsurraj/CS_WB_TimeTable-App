@@ -1,0 +1,31 @@
+.follow span a {
+    text-decoration: none;
+    color: #777;
+}
+.follow span{
+    margin-left: 15px;
+}
+/* .footer{
+    background: rgba(226, 248, 248, 0.664);
+} */
+.link__list, .link__item{
+    background: transparent;
+}
+.link__list a{
+    text-decoration: none;
+    color: #0a2b1e;
+    font-weight: 400;
+    transition: .1s;
+}
+.link__list a:hover{
+    color: #14a88d;
+   transform: scale(1.06);
+}
+.copy-right{
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+.app-footer{
+    margin-top: 20px;
+}
