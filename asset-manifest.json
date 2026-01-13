@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CS_WB_TimeTable-App/static/css/main.d961941c.css",
-    "main.js": "/CS_WB_TimeTable-App/static/js/main.763cbe04.js",
+    "main.js": "/CS_WB_TimeTable-App/static/js/main.72cc92ce.js",
     "static/js/404.ad11c00f.chunk.js": "/CS_WB_TimeTable-App/static/js/404.ad11c00f.chunk.js",
     "static/js/858.4100d201.chunk.js": "/CS_WB_TimeTable-App/static/js/858.4100d201.chunk.js",
     "static/media/remixicon.svg?t=1718271040674": "/CS_WB_TimeTable-App/static/media/remixicon.f38690bdde29bddbc211.svg",
@@ -14,12 +14,12 @@
     "static/media/hero.jpg": "/CS_WB_TimeTable-App/static/media/hero.3c3a920a200986d961c0.jpg",
     "index.html": "/CS_WB_TimeTable-App/index.html",
     "main.d961941c.css.map": "/CS_WB_TimeTable-App/static/css/main.d961941c.css.map",
-    "main.763cbe04.js.map": "/CS_WB_TimeTable-App/static/js/main.763cbe04.js.map",
+    "main.72cc92ce.js.map": "/CS_WB_TimeTable-App/static/js/main.72cc92ce.js.map",
     "404.ad11c00f.chunk.js.map": "/CS_WB_TimeTable-App/static/js/404.ad11c00f.chunk.js.map",
     "858.4100d201.chunk.js.map": "/CS_WB_TimeTable-App/static/js/858.4100d201.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d961941c.css",
-    "static/js/main.763cbe04.js"
+    "static/js/main.72cc92ce.js"
   ]
 }
